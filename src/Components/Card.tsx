@@ -22,6 +22,8 @@ const Card = ({ weatherData }: { weatherData: WeatherData }) => {
         {/* <p>Local time: {weatherData.location.localtime}</p> */}
         <p>Condition: {weatherData.current.condition.text}</p>
         <p>Temperature: {weatherData.current.temp_c}&deg; C</p>
+        <p>Wind strength: {weatherData.current.wind_kph}</p>
+        <p>Wind direction: {weatherData.current.wind_dir}</p>
       </CardContainer>
     </>
   );

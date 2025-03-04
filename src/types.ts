@@ -8,5 +8,7 @@ export interface WeatherData {
       text: string;
     };
     temp_c: number;
+    wind_kph: number;
+    wind_dir: string;
   };
 }
